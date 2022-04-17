@@ -125,7 +125,6 @@ def delete_task(id):
         tasks.append(task)
     return jsonify({'task': tasks}), 201
 
-print("Hola")
   
 
 if __name__ == '__main__':
